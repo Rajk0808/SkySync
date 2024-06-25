@@ -6,7 +6,7 @@ import requests
 # Create your views here.
 
 def index(request):
-    #API_KEY ='d0683a7a1bb54701a0b111626242305'
+    #API_KEY ='' #place your api key here
     current_weather_url = 'http://api.weatherapi.com/v1/current.json?key=d0683a7a1bb54701a0b111626242305&q={}'
     forecast_url = 'http://api.weatherapi.com/v1/forecast.json?key=d0683a7a1bb54701a0b111626242305&q={}&days=5'
 
